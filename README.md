@@ -58,3 +58,44 @@ When creating a new account, you will be prompted to enter the following informa
 To log in, enter your mobile number and PIN. If the details match, you will gain access to your account management options.
 
 
+
+# Parking Slot Management System
+
+## Project Overview
+The Parking Slot Management System is a simple Java application designed to manage parking slots in a parking facility. It allows users to check available parking slots, reserve a slot, and generate a parking receipt upon entering the facility. This application demonstrates basic object-oriented programming principles and user interaction through the console.
+
+## Features
+- View available parking slots
+- Reserve a parking slot
+- Input customer details (name, mobile number, car number)
+- Generate parking receipts with timestamps
+- Calculate total payment based on parking duration
+
+## Sample Output
+Here's an example of how the application interacts with the user:
+
+```plaintext
+Welcome to the Parking Slot Management System
+
+Enter customer Name: John Doe
+Enter Car No: GJ12CD0823
+Enter Mobile No: 9876543210
+
+Available Parking Slots:
+1. Slot A1
+2. Slot A2
+3. Slot A3
+
+Choose a parking slot from the available options (Enter slot number): 2
+
+Parking Receipt:
+-------------------------------------
+Customer Name: John Doe
+Car Number: GJ12CD0823
+Mobile Number: 9876543210
+Slot Reserved: Slot A2
+Entry Time: 2024-10-13 14:30:00
+Total Amount: $10.00
+-------------------------------------
+
+Thank you for using our service!
