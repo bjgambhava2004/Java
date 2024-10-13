@@ -40,22 +40,60 @@ This is a simple Java-based Bank Account Application that allows users to create
 - `list.java`: The class that manages the list of accounts and various operations.
 - `Account.java`: The class that represents a bank account and its details.
 
-## Example
+## Sample Output
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+*         Welcome Bank Account Application          *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-### Creating a New Account
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Please Select Your Choice                         *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                   *
+*  1] login                                         *
+*  2] open digital Saving Account                   *
+*  3] Exit                                          *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-When creating a new account, you will be prompted to enter the following information:
+* Enter your choice: 2
+Enter account holder name: John Doe
+Enter account holder Email: johndoe@example.com
+Enter Account Holder Age: 30
+Enter Amount you want to Deposite in your Account: 5000
+Enter Account Pin: 1234
 
-- Account holder name
-- Account holder age
-- Account holder mobile number
-- Account holder email
-- Account pin
-- Initial deposit amount
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Please Select Your Choice                         *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                   *
+*  1] login                                         *
+*  2] open digital Saving Account                   *
+*  3] Exit                                          *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-### Logging In
+* Enter your choice: 1
+Enter your mobile number: 1234567890
+Enter your app login pin: 1234
 
-To log in, enter your mobile number and PIN. If the details match, you will gain access to your account management options.
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+* Please Select Your Choice                         *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+*                                                   *
+*  1] Show All Account Details                      *
+*  2] See Your Account Details                      *
+*  3] Check balance                                 *
+*  4] Withdraw Amount                               *
+*  5] Deposit Amount                                *
+*  6] Change PIN                                    *
+*  7] Delete Account                                *
+*  8] Exit                                          *
+* * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+* Enter your choice: 3
+Enter Your Pin: 1234
+Your current balance is: 5000.0
+
+* Enter your choice: 8
+Thank you for using our banking services
 
 
 
